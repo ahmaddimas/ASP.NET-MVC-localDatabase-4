@@ -31,5 +31,7 @@ namespace asp_mvc_localDatabase.Models.DB
         public virtual DbSet<SYSUserRole> SYSUserRoles { get; set; }
 
         public System.Data.Entity.DbSet<asp_mvc_localDatabase.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
+
+        public System.Data.Entity.DbSet<asp_mvc_localDatabase.Models.ViewModel.UserProfileView> UserProfileViews { get; set; }
     }
 }
